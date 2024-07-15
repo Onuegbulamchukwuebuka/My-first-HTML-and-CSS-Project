@@ -394,7 +394,10 @@
 }
 /* footer ends here  */
 @media (max-width: 1024px) {
-  .body {
+  .section-div {
+    width: auto;
+  }
+  .hero-page {
     width: auto;
   }
   .project-images div {
