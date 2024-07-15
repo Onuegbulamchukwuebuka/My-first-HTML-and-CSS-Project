@@ -365,7 +365,7 @@
 .cta-section-div button {
   height: 50px;
   width: 200px;
-  background-color: red;
+  background-color: blueviolet;
   border-style: solid;
   border-color: transparent;
   color: white;
@@ -394,6 +394,9 @@
 }
 /* footer ends here  */
 @media (max-width: 1024px) {
+  .body {
+    width: auto;
+  }
   .project-images div {
     width: calc(100% / 2);
   }
