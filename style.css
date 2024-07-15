@@ -394,12 +394,6 @@
 }
 /* footer ends here  */
 @media (max-width: 1024px) {
-  .section-div {
-    width: auto;
-  }
-  .hero-page {
-    width: auto;
-  }
   .project-images div {
     width: calc(100% / 2);
   }
@@ -473,5 +467,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+  }
+  .hero-page {
+    width: auto;
   }
 }
